@@ -1,5 +1,5 @@
 import React,{useState} from "react"
-import {Canvas} from "react-three-fiber"
+import {Canvas} from "@react-three/fiber"
 import AnimatedSphere from "../component/object"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faP,faHeartMusicCameraBolt,faListCheck} from '@fortawesome/free-solid-svg-icons'
@@ -55,13 +55,15 @@ const Project=()=>{
            </div>
            </div>
            <div className="container w-full flex flex-wrap">
-                <div className='h-44 w-44 m-4 rounded '>
+                <a href='http://43.204.233.102/' target="_blank" rel="noreferrer"><div className='h-44 w-44 m-4 rounded '>
                           <div className='h-full w-full rounded flex items-center justify-center bg-lime-500 '>
                             <h1 className='absolute font-extrabold text-5xl p-2 text-white'>Do-List</h1>
                             <i className="hover:text-6xl text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faListCheck}  className=""/></i>
                           </div>
                           <div className=''></div>
                 </div>
+                </a>
+                <a href='http://43.204.233.102/' target="_blank" rel="noreferrer">
                 <div className='h-44 w-44 m-4 rounded'>
                           <div className='h-full w-full bg-no-repeat bg-blue-500 rounded flex items-center justify-center' >
                             <h1 className='absolute font-extrabold text-5xl p-2 text-white'>Aura</h1>
@@ -69,6 +71,7 @@ const Project=()=>{
                             </div>
                           <div className=''></div>
                 </div>
+                </a>
                 
             </div>
                 

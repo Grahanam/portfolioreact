@@ -4,8 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    fontFamily:'Proxima Nova',
+    // fontFamily:'Proxima Nova',
     extend: {
+      fontFamily:'Proxima Nova',
       colors:{
         'green':'#108954',
         'dark':'#121212',

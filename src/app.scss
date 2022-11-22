@@ -2,14 +2,11 @@
 @import '~loaders.css/src/animations/pacman.scss';
 
 
-
 .container{
     transform-style: preserve-3d;
     animation:fadeIn 2s backwards;
     animation-delay: 1.4s;
-
     h1{
-        
     &::after{
         animation: fadeIn 1s 1.7s backwards;
         
@@ -18,18 +15,6 @@
     }
 
 }
-
-// #video{
-//     position: fixed;
-//     width: 100%;
-//     z-index: -1;
-//     bottom:0;
-// }
-// .videocontainer{
-//     z-index: -2;
-// }
-
-
 .form{
     width: 100%;
     margin-top:20px;
