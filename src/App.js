@@ -20,11 +20,11 @@ function App() {
       <Sidebar/>
       <div className="w-full h-full relative overflow-y-scroll">
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/skill" element={<Skill/>}/>
-          <Route path="/project" element={<Project/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/portfolioreact" element={<Home/>}/>
+          <Route path="/portfolioreact/about" element={<About/>}/>
+          <Route path="/portfolioreact/skill" element={<Skill/>}/>
+          <Route path="/portfolioreact/project" element={<Project/>}/>
+          <Route path="/portfolioreact/contact" element={<Contact/>}/>
         </Routes>
       </div>
       <Bottombar/>
