@@ -58,12 +58,12 @@ const Skill=()=>{
     const [letterClass]=useState('text-animate')
     return(
         <>
-        <div className="md:py-3 md:px-6 lg:py-3 lg:px-6  h-100vh md:h-full lg:h-full   bg-gray-700 w-full ">
+        <div className="py-3 px-1 md:py-3 md:px-6 lg:py-3 lg:px-6  h-screen md:h-full lg:h-full   bg-gray-700 w-full ">
            
            <div className="text-white h-full flex flex-col md:flex-row md:flex-row">
-           <div className="w-full flex  items-center justify-start  md:w-6/12 lg:w-6/12 p-2">
+           <div className="w-full h-8/12 flex  items-center justify-start md:h-full lg:h-full  md:w-6/12 lg:w-6/12 p-2">
                 <div className="container">
-                    <h1 className="text-yellow-400 text-3xl md:text-4xl lg:text-5xl font-semibold ">
+                    <h1 className="text-yellow-400 text-4xl md:text-5xl lg:text-6xl font-semibold ">
                         {/* Hi,<br/> I'm &nbsp; */}
                     
             
@@ -73,21 +73,19 @@ const Skill=()=>{
                     
                     </h1>
                     
-                    <h2 className="font-sansserif text-md font-bold lg:text-lg text-white tracking-[0.1em] py-2">Expert in Full-stack development including technologies like
-                    <span className="text-yellow-400"> HTML5, CSS3, Javascript, React, Django, Nodejs, Bootstrap, Sass, Git,</span> etc.
-                     <br/>
-                     <br/>
-                      I'm not a designer but I have a good sense of asethetics, and experience in responsive, mobile-first web design.I put
+                    <h2 className="font-sansserif text-sm font-regular lg:text-lg text-white tracking-[0.1em] py-2">
+                     <p className='pb-3'> Expert in Full-stack development including technologies like
+                    <span className="text-yellow-400"> HTML5, CSS3, Javascript, React, Django, Nodejs, Bootstrap, Sass, Git,</span> etc.</p>
+                     
+                      <p className='pb-3'>I'm not a designer but I have a good sense of asethetics, and experience in responsive, mobile-first web design.I put
                       special effort into optimizing my code and providing the best user experience.I guarantee a commitment during work 
-                      on your project.
-                     <br/>
-                     <br/>
-                     Also you can checkout my cv on this <a href='https//:google.com' className="text-yellow-400 decoration-solid underline">link</a>.
+                      on your project.</p>
+                     
+                     <p className='pb-1'>Also you can checkout my cv on this <a href='https//:google.com' className="text-yellow-400 decoration-solid underline">link</a>.</p>
                      </h2>
                 </div>
-
             </div>
-           <div className="w-full h-full md:w-6/12 lg:w-6/12">
+           <div className="container w-full h-4/12 md:h-full md:w-6/12 lg:w-6/12">
            <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }}>
                    <fog attach="fog" args={['#202025', 0, 80]} />
                    <Cloud count={8} radius={20} />

@@ -7,6 +7,9 @@ module.exports = {
     // fontFamily:'Proxima Nova',
     extend: {
       fontFamily:'Proxima Nova',
+      fontFamily: {
+        'poppins': ['Poppins'],
+      },
       colors:{
         'green':'#108954',
         'dark':'#121212',

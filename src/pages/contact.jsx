@@ -24,7 +24,8 @@ const Contact=()=>{
         .then(
             ()=>{
                 alert(' Message successfully sent !')
-                window.location.reload(false)
+                // window.location.reload(true)
+                window.location.href='https://grahanam.github.io/portfolioreact'
             },
             ()=>{
                 alert('Failed to send the message, please try again')
@@ -33,8 +34,8 @@ const Contact=()=>{
     }
     return(
         <>
-            <div className="h-full md:h-full lg:h-full w-full bg-gray-700">
-           <div className="container text-white h-full py-1 px-2 md:py-3 md:px-6 lg:py-3 lg:px-6  flex flex-col md:flex-row lg:flex-row">
+            <div className="h-screen md:h-full lg:h-full w-full bg-gray-700">
+           <div className="container text-white h-full py-3 px-2 md:py-3 md:px-6 lg:py-3 lg:px-6  flex flex-col md:flex-row lg:flex-row">
            <div className="w-full md:w-6/12 lg:w-6/12 flex items-center justify-center flex-col ">
                 <div className="container">
                     <h1 className="text-yellow-400 text-3xl md:text-4xl lg:text-5xl font-semibold mb-2">

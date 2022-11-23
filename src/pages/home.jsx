@@ -17,9 +17,9 @@ const Home=()=>{
         <div className=" bg-gray-700 w-full h-full  md:py-3 md:px-6 lg:py-3 lg:px-6">
            
            <div className="text-white h-full flex flex-col md:flex-row lg:flex-row">
-           <div className="px-3 py-2  flex items-center justify-start lg:w-6/12 md:w-6/12">
+           <div className="px-3 py-4 h-6/12 md:h-full lg:h-full flex items-center justify-start lg:w-6/12 md:w-6/12">
                 <div className="container">
-                    <h1 className="text-yellow text-3xl font-semibold md:text-4xl lg:text-5xl">
+                    <h1 className="text-yellow text-4xl font-semibold md:text-5xl lg:text-6xl">
                         {/* Hi,<br/> I'm &nbsp; */}
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass}_12`}>i,</span>
@@ -27,19 +27,19 @@ const Home=()=>{
                     <span className={`${letterClass}_13`}>I</span>
                     <span className={`${letterClass}_14`}>'m</span>&nbsp;
                 
-                    <i className="hover:text-6xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faL}  className=""/></i>
+                    <i className="hover:text-7xl hover:text-yellow-400 duration-100 delay-100"><FontAwesomeIcon icon={faL}  className=""/></i>
                     <AnimatedLetter  letterClass={letterClass} strArray={nameArray} idx={15}/>
                     <br/>
                     <AnimatedLetter  letterClass={letterClass} strArray={jobArray} idx={22}/>
                     </h1>
                     
-                    <h2 className="font-sansserif text-md text-gray-300 tracking-[0.2em] py-2">Fullstack Webdeveloper</h2>
+                    <h2 className="font-sansserif text-lg fond-regular text-gray-300 tracking-[0.2em] py-2">Fullstack Webdeveloper</h2>
                     <br/>
                     <Link to="/contact"><button className="text-yellow-400 border border-yellow-300 hover:text-gray-700 hover:bg-yellow-400 rounded px-3 py-2 duration-75">CONTACT ME</button></Link>
                 </div>
 
             </div>
-           <div className="w-full h-full bg-gray-700 md:w-6/12 lg:w-6/12">
+           <div className="w-full h-full h-6/12 md:h-full lg:h-full bg-gray-700 md:w-6/12 lg:w-6/12">
            <Canvas  camera={{position:[-5 ,2,10], fov:60}}>
                <directionalLight
                   castShadow

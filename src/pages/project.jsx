@@ -12,19 +12,19 @@ const Project=()=>{
     const [letterClass]=useState('text-animate')
     return(
         <>
-          <div className="py-3 px-6 h-100vh md:h-full lg:h-full bg-gray-700 w-full ">
+          <div className="px-3 md:py-3 lg:py-9 md:px-6 lg:px-8 h-screen md:h-full lg:h-full bg-gray-700 w-full ">
            
-           <div className="text-white flex h-38  ">
+           <div className="text-white flex h-24 md:38 lg:38 ">
            <div className=" flex items-center justify-start  w-6/12 ">
                 <div className="container">
-                    <h1 className="text-yellow text-3xl md:text-4xl lg:text-5xl font-semibold ">
+                    <h1 className="text-yellow text-4xl md:text-5xl lg:text-6xl font-semibold ">
                     <i className="hover:text-6xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faP}  className=""/></i>
                     <AnimatedLetter  letterClass={letterClass} strArray={['r','o','j','e','c','t']} idx={22}/>
                     </h1>
                 </div> 
                 
             </div>
-           <div className="w-6/12">
+           <div className="container w-6/12 ">
            <Canvas  camera={{position:[-5 ,2,10], fov:60}}>
                <directionalLight
                   castShadow
@@ -55,19 +55,19 @@ const Project=()=>{
            </div>
            </div>
            <div className="container w-full flex flex-wrap">
-                <a href='http://43.204.233.102/' target="_blank" rel="noreferrer"><div className='h-44 w-44 m-4 rounded '>
+                <a href='http://43.204.233.102/' target="_blank" rel="noreferrer"><div className='h-32 w-32  md:h-36 md:w-36 lg:h-44 lg:w-44 m-4 rounded '>
                           <div className='h-full w-full rounded flex items-center justify-center bg-lime-500 '>
-                            <h1 className='absolute font-extrabold text-5xl p-2 text-white'>Do-List</h1>
-                            <i className="hover:text-6xl text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faListCheck}  className=""/></i>
+                            <h1 className='absolute font-extrabold text-3xl md:text-4xl lg:text-5xl p-2 text-white'>Do-List</h1>
+                            <i className="text-6xl md:text-7xl lg:text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faListCheck}  className=""/></i>
                           </div>
                           <div className=''></div>
                 </div>
                 </a>
                 <a href='http://43.204.233.102/' target="_blank" rel="noreferrer">
-                <div className='h-44 w-44 m-4 rounded'>
+                <div className='h-32 w-32 md:h-36 md:w-36 lg:h-44 lg:w-44 m-4 rounded'>
                           <div className='h-full w-full bg-no-repeat bg-blue-500 rounded flex items-center justify-center' >
-                            <h1 className='absolute font-extrabold text-5xl p-2 text-white'>Aura</h1>
-                            <i className="hover:text-6xl text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faHeartMusicCameraBolt}  className=""/></i>
+                            <h1 className='absolute font-extrabold text-3xl md:text-4xl lg:text-5xl p-2 text-white'>Aura</h1>
+                            <i className="text-6xl md:text-7xl lg:text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faHeartMusicCameraBolt}  className=""/></i>
                             </div>
                           <div className=''></div>
                 </div>

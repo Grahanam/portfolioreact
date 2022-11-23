@@ -15,16 +15,17 @@ import Skill from './pages/skill';
 function App() {
   return (
   <>
-    <div className=" h-screen">
+    <div className=" h-screen font-poppins">
       <div className="flex h-full">
       <Sidebar/>
-      <div className="w-full h-full relative overflow-y-scroll">
+      <div className="w-full h-screen relative overflow-y-scroll">
         <Routes>
           <Route path="/portfolioreact" element={<Home/>}/>
           <Route path="/portfolioreact/about" element={<About/>}/>
           <Route path="/portfolioreact/skill" element={<Skill/>}/>
           <Route path="/portfolioreact/project" element={<Project/>}/>
           <Route path="/portfolioreact/contact" element={<Contact/>}/>
+          
         </Routes>
       </div>
       <Bottombar/>

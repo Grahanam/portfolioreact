@@ -57,7 +57,6 @@ input[type='email']{
     color:black;
     padding: 0 20px;
     box-sizing: border-box;
-
 }
 textarea{
     width: 100%;
@@ -69,7 +68,6 @@ textarea{
     padding:0 20px;
     min-height: 10px;
     box-sizing: border-box;
-
 }
 }
 #video{
@@ -97,11 +95,11 @@ textarea{
     z-index: 40;
 }
 .map{
-    animation:fadeInUp 2s 2s;
+    animation:fadeInUp 2s 1s;
     animation-fill-mode: forwards;
 
 }
 .maptitle{
-    animation:fadeInUp 2s 2s;
+    animation:fadeInUp 1s 1s;
             animation-fill-mode: forwards;
 }
