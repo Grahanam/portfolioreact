@@ -18,7 +18,7 @@ function App() {
     <div className=" h-screen font-poppins">
       <div className="flex h-full">
       <Sidebar/>
-      <div className="w-full h-screen relative overflow-y-scroll">
+      <div className="w-full h-screen relative overflow-y-hidden">
         <Routes>
           <Route path="/portfolioreact" element={<Home/>}/>
           <Route path="/portfolioreact/about" element={<About/>}/>
