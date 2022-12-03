@@ -11,7 +11,7 @@ import Layout from './pages/layout';
 
 function App() {
   return (
-        <Routes>
+        <Routes basename="/portfolioreact">
           <Route path="/portfolioreact" element={<Layout/>}>
             <Route index element={<Home/>}/>
             <Route path="/portfolioreact/about" element={<About/>}/>
