@@ -63,7 +63,6 @@ const Sidebar = ()=>{
                   <button className={` w-full text-lg font-semibold text-lightest  rounded px-3 py-2  items-center  hover:text-white `}>
                    <a href='https://www.linkedin.com/in/lunaramsuthar/' target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faGithub} className="mx-2"/></i> </a>
                   </button>              
-                <Outlet/>
             </div>
         </div>
         </>

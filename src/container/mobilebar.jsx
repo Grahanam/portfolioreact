@@ -9,7 +9,7 @@ const Bottombar = ()=>{
 //   let {location}=useContext(AuthContext)
     return(
         <>
-        <div className=" w-full bg-black block absolute bottom-0 md:hidden lg:hidden">
+        <div className=" w-full bg-black fixed bottom-0 inset-x-0 md:hidden lg:hidden">
             <div className=" flex mx-1 my-1 justify-evenly">
                 <Link to="/portfolioreact" className=""  >
                 {/* ${location==='/'?'white':'lightest'} */}
@@ -42,8 +42,6 @@ const Bottombar = ()=>{
                     {/* <p>Project</p> */}
                   </button>
                 </Link>
-              
-                <Outlet/>
             </div>
         </div>
         </>
