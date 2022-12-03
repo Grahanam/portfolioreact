@@ -77,7 +77,7 @@ const Skill=()=>{
                      <p className='pb-3'> Expert in Full-stack development including technologies like
                     <span className="text-yellow-400"> HTML5, CSS3, Javascript, React, Django, Nodejs, Bootstrap, Sass, Git,</span> etc.</p>
                      
-                      <p className='pb-3'>I'm not a designer but I have a good sense of asethetics, and experience in responsive, mobile-first web design.I put
+                      <p className='pb-3'>I'm not a designer but I have a good sense of aesthetic, and experience in responsive, mobile-first web design.I put
                       special effort into optimizing my code and providing the best user experience.I guarantee a commitment during work 
                       on your project.</p>
                      

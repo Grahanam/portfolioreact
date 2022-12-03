@@ -1,14 +1,12 @@
-import {Outlet,Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome,faFire,faBarChart ,faContactCard,faUserAstronaut, faL ,faS} from '@fortawesome/free-solid-svg-icons'
 import {
     faLinkedin,
     faGithub,
   } from '@fortawesome/free-brands-svg-icons'
-// import AuthContext from "../../context/AuthContext"
 
 const Sidebar = ()=>{
-//   let {location}=useContext(AuthContext)
      let location=''
     return(
         <>
@@ -56,12 +54,12 @@ const Sidebar = ()=>{
                 <br/>
                 
                   <button className={`w-full text-lg font-semibold text-lightest hover:text-white rounded px-3 py-2 items-center`}>
-                  <a href='https://github.com/grahanam' target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedin} className="mx-2"/></i></a>  
+                  <a href='https://www.linkedin.com/in/lunaramsuthar/' target="_blank" rel="noreferrer"><i><FontAwesomeIcon icon={faLinkedin} className="mx-2"/></i></a>  
                   </button>
     
     
                   <button className={` w-full text-lg font-semibold text-lightest  rounded px-3 py-2  items-center  hover:text-white `}>
-                   <a href='https://www.linkedin.com/in/lunaramsuthar/' target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faGithub} className="mx-2"/></i> </a>
+                   <a href='https://github.com/grahanam' target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faGithub} className="mx-2"/></i> </a>
                   </button>              
             </div>
         </div>

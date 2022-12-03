@@ -1,9 +1,5 @@
 import {Routes,Route} from 'react-router-dom'
 
-
-//container
-import Sidebar from './container/sidebar';
-import Bottombar from './container/mobilebar';
 //pages
 import Home from './pages/home'
 import About from './pages/about'

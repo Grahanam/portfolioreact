@@ -1,12 +1,10 @@
-import {Outlet,Link} from "react-router-dom"
+import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome,faFire,faBarChart ,faContactCard,faUserAstronaut} from '@fortawesome/free-solid-svg-icons'
 
-// import AuthContext from "../../context/AuthContext"
 
 
 const Bottombar = ()=>{
-//   let {location}=useContext(AuthContext)
     return(
         <>
         <div className=" w-full bg-black fixed bottom-0 inset-x-0 md:hidden lg:hidden">
