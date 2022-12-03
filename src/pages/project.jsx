@@ -63,7 +63,7 @@ const Project=()=>{
                           <div className=''></div>
                 </div>
                 </a>
-                <a href='http://43.204.233.102/' target="_blank" rel="noreferrer">
+                <a href='http://15.207.87.105/' target="_blank" rel="noreferrer">
                 <div className='h-32 w-32 md:h-36 md:w-36 lg:h-44 lg:w-44 m-4 rounded'>
                           <div className='h-full w-full bg-no-repeat bg-blue-500 rounded flex items-center justify-center' >
                             <h1 className='absolute font-extrabold text-3xl md:text-4xl lg:text-5xl p-2 text-white'>Aura</h1>

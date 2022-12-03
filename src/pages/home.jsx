@@ -35,7 +35,7 @@ const Home=()=>{
                     
                     <h2 className="font-sansserif text-lg fond-regular text-gray-300 tracking-[0.2em] py-2">Fullstack Webdeveloper</h2>
                     <br/>
-                    <Link to="/contact"><button className="text-yellow-400 border border-yellow-300 hover:text-gray-700 hover:bg-yellow-400 rounded px-3 py-2 duration-75">CONTACT ME</button></Link>
+                    <Link to="/portfolioreact/contact"><button className="text-yellow-400 border border-yellow-300 hover:text-gray-700 hover:bg-yellow-400 rounded px-3 py-2 duration-75">CONTACT ME</button></Link>
                 </div>
 
             </div>
