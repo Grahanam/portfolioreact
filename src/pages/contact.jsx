@@ -24,8 +24,8 @@ const Contact=()=>{
         .then(
             ()=>{
                 alert(' Message successfully sent !')
-                // window.location.reload(true)
-                window.location.href='https://grahanam.github.io/portfolioreact'
+                window.location.reload(false)
+                // window.location.href='https://grahanam.github.io/portfolioreact'
             },
             ()=>{
                 alert('Failed to send the message, please try again')
