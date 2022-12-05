@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import React,{useState,useMemo,useEffect ,useRef} from "react"
 import {Canvas,useFrame} from "@react-three/fiber"
 import {Text, TrackballControls} from '@react-three/drei'
-
+import pdf from '../assets/LunaramSutharCv.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faS} from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetter from "../component/animatedletter/letter"
@@ -81,7 +81,7 @@ const Skill=()=>{
                       special effort into optimizing my code and providing the best user experience.I guarantee a commitment during work 
                       on your project.</p>
                      
-                     <p className='pb-1'>Also you can checkout my cv on this <a href='https//:google.com' className="text-yellow-400 decoration-solid underline">link</a>.</p>
+                     <p className='pb-1'>Also you can checkout my cv on this <a href={pdf} target="_blank" className="text-yellow-400 decoration-solid underline">link</a>.</p>
                      </h2>
                 </div>
             </div>
