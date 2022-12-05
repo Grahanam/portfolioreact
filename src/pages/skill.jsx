@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import React,{useState,useMemo,useEffect ,useRef} from "react"
 import {Canvas,useFrame} from "@react-three/fiber"
 import {Text, TrackballControls} from '@react-three/drei'
-import pdf from '../assets/LunaramSutharCv.pdf'
+import Pdf from '../assets/CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faS} from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetter from "../component/animatedletter/letter"
@@ -56,6 +56,7 @@ function Word({ children, ...props }) {
 
 const Skill=()=>{
     const [letterClass]=useState('text-animate')
+
     return(
         <>
         <div className="py-3 px-1 md:py-3 md:px-6 lg:py-3 lg:px-6  h-screen md:h-full lg:h-full   bg-gray-700 w-full ">
@@ -81,7 +82,7 @@ const Skill=()=>{
                       special effort into optimizing my code and providing the best user experience.I guarantee a commitment during work 
                       on your project.</p>
                      
-                     <p className='pb-1'>Also you can checkout my cv on this <a href={pdf} target="_blank" className="text-yellow-400 decoration-solid underline">link</a>.</p>
+                     <p className='pb-1'>Also you can checkout my cv on this <a href={Pdf} target="_blank" rel="noreferrer" className="text-yellow-400 decoration-solid underline">link</a>.</p>
                      </h2>
                 </div>
             </div>
