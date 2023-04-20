@@ -2,7 +2,7 @@ import React,{useState} from "react"
 import {Canvas} from "@react-three/fiber"
 import AnimatedSphere from "../component/object"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faP,faHeartMusicCameraBolt,faListCheck,faMaskFace,faFaceMehBlank} from '@fortawesome/free-solid-svg-icons'
+import { faP,faHeartMusicCameraBolt,faListCheck,faMaskFace,faFaceMehBlank,faMessage} from '@fortawesome/free-solid-svg-icons'
 import AnimatedLetter from "../component/animatedletter/letter"
 import '../app.scss'
 import '../component/animatedletter/letter.scss'
@@ -77,6 +77,14 @@ const Project=()=>{
                           <div className='h-full w-full rounded flex items-center justify-center bg-lime-500 '>
                             <h1 className='absolute font-extrabold text-3xl md:text-4xl lg:text-5xl p-2 text-white'>FRT</h1>
                             <i className="text-6xl md:text-7xl lg:text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faFaceMehBlank}  className=""/></i>
+                          </div>
+                          <div className=''></div>
+                </div>
+                </a>
+                <a href='https://cool-meerkat-40d7d2.netlify.app/' target="_blank" rel="noreferrer"><div className='h-32 w-32  md:h-36 md:w-36 lg:h-44 lg:w-44 m-4 rounded '>
+                          <div className='h-full w-full rounded flex items-center justify-center bg-lime-500 '>
+                            <h1 className='absolute font-extrabold text-3xl md:text-4xl lg:text-5xl p-2 text-white'>Chat</h1>
+                            <i className="text-6xl md:text-7xl lg:text-8xl hover:text-yellow-400 duration-75"><FontAwesomeIcon icon={faMessage}  className=""/></i>
                           </div>
                           <div className=''></div>
                 </div>
